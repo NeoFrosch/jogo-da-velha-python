@@ -74,10 +74,10 @@ def bloquear():
     elif (posicao2 + posicao5 + posicao8).count('X') == 2 and ((posicao2+posicao5+posicao8).count('O') == 0):
         opcoes_bloquear = [2,5,8]
         return True
-    elif (posicao3 + posicao6 + posicao9).count('X') == 2:
+    elif (posicao3 + posicao6 + posicao9).count('X') == 2 and ((posicao3+posicao6+posicao9).count('O') == 0):
         opcoes_bloquear = [3,6,9]
         return True
-    elif (posicao3 + posicao5 + posicao7).count('X') == 2:
+    elif (posicao3 + posicao5 + posicao7).count('X') == 2 and ((posicao3+posicao5+posicao7).count('O') == 0):
         opcoes_bloquear = [3,5,7]
         return True
     else: 
